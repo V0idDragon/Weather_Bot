@@ -13,4 +13,17 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <dependencies>
+    <dependency>
+        <groupId>org.telegram</groupId>
+        <artifactId>telegrambots</artifactId>
+        <version>LATEST</version>
+    </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>LATEST</version>
+        </dependency>
+    </dependencies>
+
 </project>
